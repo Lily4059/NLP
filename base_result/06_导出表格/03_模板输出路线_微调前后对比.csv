@@ -1,0 +1,3 @@
+﻿模型/设置,评估数据,样本数,Accuracy,Macro-F1,Valid Choice Rate,Empty Prediction Rate,说明
+tmpl baseline,csqa_valid_tmpl.json,1221,0.2277,0.2642,0.6183,0.3817,未微调，要求输出 The correct answer is X.
+tmpl + LoRA,csqa_valid_tmpl.json,1221,0.6871,0.6872,1.0000,0.0000,模板输出路线主实验

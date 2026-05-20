@@ -1,0 +1,4 @@
+﻿模型/设置,评估数据,样本数,峰值显存(MB),Accuracy,Macro-F1,Valid Choice Rate,Empty Prediction Rate,说明
+strict LoRA cmp,csqa_valid_strict.json,1221,3245,0.1351,0.2106,0.2007,0.7993,拓展部分公平对照 LoRA
+strict Full cmp,csqa_valid_strict.json,1221,10819,0.6183,0.6179,1.0000,0.0000,拓展部分公平对照 Full
+strict LoRA bestcmp,csqa_valid_strict.json,1221,3245,0.6953,0.6955,0.9992,0.0008,拓展部分较优设置 LoRA

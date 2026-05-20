@@ -1,0 +1,2412 @@
+{
+  "summary": {
+    "base_model_path": "/root/models/Qwen2.5-0.5B-Instruct",
+    "adapter_path": "/root/deadline520/LLaMA-Factory/output/qwen25_csqa_lora_rank16",
+    "data_path": "/root/deadline520/LLaMA-Factory/data/csqa_valid.json",
+    "samples": 300,
+    "correct": 191,
+    "accuracy": 0.6366666666666667
+  },
+  "results": [
+    {
+      "id": 1,
+      "input": "Question: A revolving door is convenient for two direction travel, but it also serves as a security measure at a what?\nA. bank\nB. library\nC. department store\nD. mall\nE. new york",
+      "gold": "A",
+      "pred": "A",
+      "correct": true,
+      "raw_output": "A"
+    },
+    {
+      "id": 2,
+      "input": "Question: What do people aim to do at work?\nA. complete job\nB. learn from each other\nC. kill animals\nD. wear hats\nE. talk to each other",
+      "gold": "A",
+      "pred": "A",
+      "correct": true,
+      "raw_output": "A"
+    },
+    {
+      "id": 3,
+      "input": "Question: Where would you find magazines along side many other printed works?\nA. doctor\nB. bookstore\nC. market\nD. train station\nE. mortuary",
+      "gold": "B",
+      "pred": "B",
+      "correct": true,
+      "raw_output": "B"
+    },
+    {
+      "id": 4,
+      "input": "Question: Where are  you likely to find a hamburger?\nA. fast food restaurant\nB. pizza\nC. ground up dead cows\nD. mouth\nE. cow carcus",
+      "gold": "A",
+      "pred": "A",
+      "correct": true,
+      "raw_output": "A"
+    },
+    {
+      "id": 5,
+      "input": "Question: James was looking for a good place to buy farmland.  Where might he look?\nA. midwest\nB. countryside\nC. estate\nD. farming areas\nE. illinois",
+      "gold": "A",
+      "pred": "B",
+      "correct": false,
+      "raw_output": "B"
+    },
+    {
+      "id": 6,
+      "input": "Question: What island country is ferret popular?\nA. own home\nB. north carolina\nC. great britain\nD. hutch\nE. outdoors",
+      "gold": "C",
+      "pred": "C",
+      "correct": true,
+      "raw_output": "C"
+    },
+    {
+      "id": 7,
+      "input": "Question: In what Spanish speaking North American country can you get a great cup of coffee?\nA. mildred's coffee shop\nB. mexico\nC. diner\nD. kitchen\nE. canteen",
+      "gold": "B",
+      "pred": "B",
+      "correct": true,
+      "raw_output": "B"
+    },
+    {
+      "id": 8,
+      "input": "Question: What do animals do when an enemy is approaching?\nA. feel pleasure\nB. procreate\nC. pass water\nD. listen to each other\nE. sing",
+      "gold": "D",
+      "pred": "A",
+      "correct": false,
+      "raw_output": "A"
+    },
+    {
+      "id": 9,
+      "input": "Question: Reading newspaper one of many ways to practice your what?\nA. literacy\nB. knowing how to read\nC. money\nD. buying\nE. money bank",
+      "gold": "A",
+      "pred": "A",
+      "correct": true,
+      "raw_output": "A"
+    },
+    {
+      "id": 10,
+      "input": "Question: What do people typically do while playing guitar?\nA. cry\nB. hear sounds\nC. singing\nD. arthritis\nE. making music",
+      "gold": "C",
+      "pred": "E",
+      "correct": false,
+      "raw_output": "E"
+    },
+    {
+      "id": 11,
+      "input": "Question: What would vinyl be an odd thing to replace?\nA. pants\nB. record albums\nC. record store\nD. cheese\nE. wallpaper",
+      "gold": "E",
+      "pred": "A",
+      "correct": false,
+      "raw_output": "A"
+    },
+    {
+      "id": 12,
+      "input": "Question: If you want harmony, what is something you should try to do with the world?\nA. take time\nB. make noise\nC. make war\nD. make peace\nE. make haste",
+      "gold": "D",
+      "pred": "D",
+      "correct": true,
+      "raw_output": "D"
+    },
+    {
+      "id": 13,
+      "input": "Question: Where does a heifer's master live?\nA. farm house\nB. barnyard\nC. stockyard\nD. slaughter house\nE. eat cake",
+      "gold": "A",
+      "pred": "A",
+      "correct": true,
+      "raw_output": "A"
+    },
+    {
+      "id": 14,
+      "input": "Question: Aside from water and nourishment what does your dog need?\nA. bone\nB. charm\nC. petted\nD. lots of attention\nE. walked",
+      "gold": "D",
+      "pred": "A",
+      "correct": false,
+      "raw_output": "A"
+    },
+    {
+      "id": 15,
+      "input": "Question: Janet was watching the film because she liked what?\nA. erection\nB. laughter\nC. being entertained\nD. fear\nE. bordem",
+      "gold": "C",
+      "pred": "C",
+      "correct": true,
+      "raw_output": "C"
+    },
+    {
+      "id": 16,
+      "input": "Question: What are you waiting alongside with when you're in a reception area?\nA. motel\nB. chair\nC. hospital\nD. people\nE. hotels",
+      "gold": "D",
+      "pred": "D",
+      "correct": true,
+      "raw_output": "D"
+    },
+    {
+      "id": 17,
+      "input": "Question: When drinking booze what can you do to stay busy?\nA. reach tentative agreement\nB. stay in bed\nC. stop bicycle\nD. examine thing\nE. suicide",
+      "gold": "D",
+      "pred": "D",
+      "correct": true,
+      "raw_output": "D"
+    },
+    {
+      "id": 18,
+      "input": "Question: A fencing thrust with a sharp sword towards a person would result in what?\nA. injury\nB. small cuts\nC. fever\nD. competition\nE. puncture wound",
+      "gold": "E",
+      "pred": "E",
+      "correct": true,
+      "raw_output": "E"
+    },
+    {
+      "id": 19,
+      "input": "Question: Unlike a spider and his many sight seers, people only have what?\nA. tongues\nB. names\nC. brains\nD. feelings\nE. two eyes",
+      "gold": "E",
+      "pred": "C",
+      "correct": false,
+      "raw_output": "C"
+    },
+    {
+      "id": 20,
+      "input": "Question: Where do adults use glue sticks?\nA. classroom\nB. desk drawer\nC. at school\nD. office\nE. kitchen drawer",
+      "gold": "D",
+      "pred": "A",
+      "correct": false,
+      "raw_output": "A"
+    },
+    {
+      "id": 21,
+      "input": "Question: What could go on top of wood?\nA. lumberyard\nB. synagogue\nC. floor\nD. carpet\nE. hardware store",
+      "gold": "D",
+      "pred": "D",
+      "correct": true,
+      "raw_output": "D"
+    },
+    {
+      "id": 22,
+      "input": "Question: The artist was sitting quietly pondering, then suddenly he began to paint when what struck him?\nA. sadness\nB. anxiety\nC. inspiration\nD. discomfort\nE. insights",
+      "gold": "C",
+      "pred": "C",
+      "correct": true,
+      "raw_output": "C"
+    },
+    {
+      "id": 23,
+      "input": "Question: Though the thin film seemed fragile, for it's intended purpose it was actually nearly what?\nA. indestructible\nB. durable\nC. undestroyable\nD. indestructible\nE. unbreakable",
+      "gold": "D",
+      "pred": "E",
+      "correct": false,
+      "raw_output": "E"
+    },
+    {
+      "id": 24,
+      "input": "Question: Where could you find a toilet that only friends can use?\nA. rest area\nB. school\nC. stadium\nD. apartment\nE. hospital",
+      "gold": "D",
+      "pred": "D",
+      "correct": true,
+      "raw_output": "D"
+    },
+    {
+      "id": 25,
+      "input": "Question: What is someone who isn't clever, bright, or competent called?\nA. clumsy\nB. ineffectual\nC. dull\nD. clumsy\nE. stupid",
+      "gold": "E",
+      "pred": "E",
+      "correct": true,
+      "raw_output": "E"
+    },
+    {
+      "id": 26,
+      "input": "Question: When wildlife reproduce we often refer to what comes out as what?\nA. raise children\nB. have children\nC. photo copy\nD. offspring\nE. accidently got pregnant somehow",
+      "gold": "D",
+      "pred": "D",
+      "correct": true,
+      "raw_output": "D"
+    },
+    {
+      "id": 27,
+      "input": "Question: The weasel was becoming a problem, it kept getting into the chicken eggs kept in the what?\nA. forrest\nB. barn\nC. public office\nD. out of doors\nE. freezer",
+      "gold": "B",
+      "pred": "B",
+      "correct": true,
+      "raw_output": "B"
+    },
+    {
+      "id": 28,
+      "input": "Question: Blue read material outside of his comfort zone because he wanted to gain what?\nA. new perspective\nB. entertained\nC. understanding\nD. hunger\nE. tired eyes",
+      "gold": "A",
+      "pred": "A",
+      "correct": true,
+      "raw_output": "A"
+    },
+    {
+      "id": 29,
+      "input": "Question: After he got hired he hoped for success at his what?\nA. vocation\nB. new job\nC. michigan\nD. working hard\nE. manual",
+      "gold": "B",
+      "pred": "A",
+      "correct": false,
+      "raw_output": "A"
+    },
+    {
+      "id": 30,
+      "input": "Question: Committing perjury is a serious what?\nA. indictment\nB. crime\nC. violence\nD. lie\nE. go to jail",
+      "gold": "B",
+      "pred": "B",
+      "correct": true,
+      "raw_output": "B"
+    },
+    {
+      "id": 31,
+      "input": "Question: If you are prone to postpone work what will you have to do in order to finish on time?\nA. eat\nB. hasten\nC. antedate\nD. bring forward\nE. advance",
+      "gold": "B",
+      "pred": "B",
+      "correct": true,
+      "raw_output": "B"
+    },
+    {
+      "id": 32,
+      "input": "Question: James wanted to find an old underground map from the 50s.  Where might he look for one?\nA. library\nB. subway station\nC. county engineer's office\nD. super market\nE. home",
+      "gold": "A",
+      "pred": "A",
+      "correct": true,
+      "raw_output": "A"
+    },
+    {
+      "id": 33,
+      "input": "Question: Sean was in a rush to get home, but the light turned yellow and he was forced to do what?\nA. take time\nB. dawdle\nC. go slowly\nD. ocean\nE. slow down",
+      "gold": "E",
+      "pred": "A",
+      "correct": false,
+      "raw_output": "A"
+    },
+    {
+      "id": 34,
+      "input": "Question: Where would a person be doing when having to wait their turn?\nA. have patience\nB. get in line\nC. sing\nD. stand in line\nE. turn left",
+      "gold": "D",
+      "pred": "D",
+      "correct": true,
+      "raw_output": "D"
+    },
+    {
+      "id": 35,
+      "input": "Question: She was always helping at the senior center, it brought her what?\nA. satisfaction\nB. heart\nC. feel better\nD. pay\nE. happiness",
+      "gold": "E",
+      "pred": "C",
+      "correct": false,
+      "raw_output": "C"
+    },
+    {
+      "id": 36,
+      "input": "Question: The lock kept the steering wheel from moving, but the thief still took his chances and began to work on the what?\nA. keep cloesd\nB. train\nC. ignition switch\nD. drawer\nE. firearm",
+      "gold": "C",
+      "pred": "E",
+      "correct": false,
+      "raw_output": "E"
+    },
+    {
+      "id": 37,
+      "input": "Question: Who is a police officer likely to work for?\nA. beat\nB. direct traffic\nC. city\nD. street\nE. president",
+      "gold": "C",
+      "pred": "C",
+      "correct": true,
+      "raw_output": "C"
+    },
+    {
+      "id": 38,
+      "input": "Question: If you have leftover cake, where would you put it?\nA. quandry\nB. refrigerator\nC. oven\nD. night stand\nE. bakery",
+      "gold": "B",
+      "pred": "B",
+      "correct": true,
+      "raw_output": "B"
+    },
+    {
+      "id": 39,
+      "input": "Question: A human wants to submerge himself in water, what should he use?\nA. whirlpool bath\nB. coffee cup\nC. cup\nD. soft drink\nE. puddle",
+      "gold": "A",
+      "pred": "A",
+      "correct": true,
+      "raw_output": "A"
+    },
+    {
+      "id": 40,
+      "input": "Question: Where is a doormat likely to be in front of?\nA. facade\nB. front door\nC. doorway\nD. entrance porch\nE. hallway",
+      "gold": "B",
+      "pred": "B",
+      "correct": true,
+      "raw_output": "B"
+    },
+    {
+      "id": 41,
+      "input": "Question: Bob the lizard lives in a warm place with lots of water.  Where does he probably live?\nA. rock\nB. tropical rainforest\nC. jazz club\nD. new mexico\nE. rocky places",
+      "gold": "B",
+      "pred": "D",
+      "correct": false,
+      "raw_output": "D"
+    },
+    {
+      "id": 42,
+      "input": "Question: August needed  money because he was afraid that he'd be kicked out of his house.  What did he need money to do?\nA. control people\nB. pay bills\nC. hurt people\nD. buy food\nE. get things",
+      "gold": "B",
+      "pred": "B",
+      "correct": true,
+      "raw_output": "B"
+    },
+    {
+      "id": 43,
+      "input": "Question: He needed more information to fix it, so he consulted the what?\nA. chickens\nB. google\nC. newspaper\nD. online\nE. manual",
+      "gold": "E",
+      "pred": "E",
+      "correct": true,
+      "raw_output": "E"
+    },
+    {
+      "id": 44,
+      "input": "Question: Where can you put a picture frame when it's not hung vertically?\nA. art show\nB. wall\nC. newspaper\nD. car\nE. table",
+      "gold": "E",
+      "pred": "B",
+      "correct": false,
+      "raw_output": "B"
+    },
+    {
+      "id": 45,
+      "input": "Question: James knew that he shouldn't have been buying beer for minors.  He didn't even get paid for it.  Why was this bad?\nA. lose money\nB. fun\nC. have no money\nD. broken law\nE. relaxation",
+      "gold": "D",
+      "pred": "D",
+      "correct": true,
+      "raw_output": "D"
+    },
+    {
+      "id": 46,
+      "input": "Question: What is the result of applying for  job?\nA. anxiety and fear\nB. increased workload\nC. praise\nD. less sleep\nE. being employed",
+      "gold": "E",
+      "pred": "E",
+      "correct": true,
+      "raw_output": "E"
+    },
+    {
+      "id": 47,
+      "input": "Question: What must someone do before they shop?\nA. get money\nB. have money\nC. bring cash\nD. go to market\nE. bring cash",
+      "gold": "A",
+      "pred": "B",
+      "correct": false,
+      "raw_output": "B"
+    },
+    {
+      "id": 48,
+      "input": "Question: Because John was first violin, he had to bring something important to work ever day. What did he need to bring to work?\nA. music store\nB. obesity\nC. symphony orchestra\nD. ochestra\nE. violin case",
+      "gold": "E",
+      "pred": "E",
+      "correct": true,
+      "raw_output": "E"
+    },
+    {
+      "id": 49,
+      "input": "Question: What is a place that usually does not have an elevator and that sometimes has a telephone book?\nA. at hotel\nB. kitchen\nC. library\nD. telephone booth\nE. house",
+      "gold": "E",
+      "pred": "E",
+      "correct": true,
+      "raw_output": "E"
+    },
+    {
+      "id": 50,
+      "input": "Question: Who is likely to be excited about a crab?\nA. fish market\nB. pet shop\nC. fishmongers\nD. intertidal zone\nE. obesity",
+      "gold": "C",
+      "pred": "A",
+      "correct": false,
+      "raw_output": "A"
+    },
+    {
+      "id": 51,
+      "input": "Question: Where can a human find clothes that aren't pants?\nA. pants shop\nB. on planet earth\nC. dress shop\nD. school\nE. train wreck",
+      "gold": "C",
+      "pred": "C",
+      "correct": true,
+      "raw_output": "C"
+    },
+    {
+      "id": 52,
+      "input": "Question: If I was getting drunk, and people couldn't understand me, what might I be having?\nA. a seizure\nB. slurred speech\nC. death\nD. forgetfulness\nE. pass out",
+      "gold": "B",
+      "pred": "B",
+      "correct": true,
+      "raw_output": "B"
+    },
+    {
+      "id": 53,
+      "input": "Question: When a person is beginning work, what are they building?\nA. time\nB. accomplishing\nC. working\nD. momentum\nE. tiredness",
+      "gold": "D",
+      "pred": "A",
+      "correct": false,
+      "raw_output": "A"
+    },
+    {
+      "id": 54,
+      "input": "Question: A child wants to play, what would they likely want?\nA. fall down\nB. breathe\nC. play tag\nD. be dismembered by a chainsaw\nE. become adult",
+      "gold": "C",
+      "pred": "C",
+      "correct": true,
+      "raw_output": "C"
+    },
+    {
+      "id": 55,
+      "input": "Question: Talking to the same person about the same thing over and over again is something someone can what?\nA. social life\nB. friendship\nC. eye contact\nD. get tired of\nE. learn lessons from",
+      "gold": "D",
+      "pred": "D",
+      "correct": true,
+      "raw_output": "D"
+    },
+    {
+      "id": 56,
+      "input": "Question: The teacher doesn't tolerate noise during a test in their what?\nA. movie theatre\nB. bowling alley\nC. factory\nD. store\nE. classroom",
+      "gold": "E",
+      "pred": "E",
+      "correct": true,
+      "raw_output": "E"
+    },
+    {
+      "id": 57,
+      "input": "Question: The freeway had no traffic and few buildings, where is it?\nA. california\nB. countryside\nC. big town\nD. florida\nE. america",
+      "gold": "B",
+      "pred": "A",
+      "correct": false,
+      "raw_output": "A"
+    },
+    {
+      "id": 58,
+      "input": "Question: Where would you go if you wanted to have fun with a few people?\nA. watching television\nB. good\nC. cinema\nD. friend's house\nE. fairgrounds",
+      "gold": "D",
+      "pred": "D",
+      "correct": true,
+      "raw_output": "D"
+    },
+    {
+      "id": 59,
+      "input": "Question: If there is a place that is hot and arid, what could it be?\nA. bland\nB. lifeless\nC. sandy\nD. neutral\nE. freezing",
+      "gold": "B",
+      "pred": "C",
+      "correct": false,
+      "raw_output": "C"
+    },
+    {
+      "id": 60,
+      "input": "Question: What is likely to satisfy someone's curiosity?\nA. hear news\nB. read book\nC. see favorite show\nD. comedy show\nE. go somewhere",
+      "gold": "A",
+      "pred": "B",
+      "correct": false,
+      "raw_output": "B"
+    },
+    {
+      "id": 61,
+      "input": "Question: If you are in a bar in a glove shaped state where are you?\nA. in my pocket\nB. michigan\nC. new york city\nD. restaurant\nE. public house",
+      "gold": "B",
+      "pred": "E",
+      "correct": false,
+      "raw_output": "E"
+    },
+    {
+      "id": 62,
+      "input": "Question: Where would a computer user be using their own computer?\nA. hell\nB. school\nC. indoors\nD. internet cafe\nE. house",
+      "gold": "E",
+      "pred": "D",
+      "correct": false,
+      "raw_output": "D"
+    },
+    {
+      "id": 63,
+      "input": "Question: Crabs live in what sort of environment?\nA. maritime\nB. bodies of water\nC. saltwater\nD. galapagos\nE. fish market",
+      "gold": "C",
+      "pred": "B",
+      "correct": false,
+      "raw_output": "B"
+    },
+    {
+      "id": 64,
+      "input": "Question: Where can you find a snake in tall grass?\nA. tree\nB. in a jar\nC. pet shops\nD. feild\nE. tropical forest",
+      "gold": "D",
+      "pred": "A",
+      "correct": false,
+      "raw_output": "A"
+    },
+    {
+      "id": 65,
+      "input": "Question: What is a place that has a bench nestled in trees?\nA. state park\nB. bus stop\nC. bus depot\nD. statue\nE. train station",
+      "gold": "A",
+      "pred": "A",
+      "correct": true,
+      "raw_output": "A"
+    },
+    {
+      "id": 66,
+      "input": "Question: Where is a human likely to go as a result of being hungry?\nA. eat in restaurant\nB. make bread\nC. have lunch\nD. cook dinner\nE. friends house",
+      "gold": "A",
+      "pred": "A",
+      "correct": true,
+      "raw_output": "A"
+    },
+    {
+      "id": 67,
+      "input": "Question: He was beginning to regret taking the fight when he saw how what his opponent was?\nA. fun\nB. joy\nC. satisfaction\nD. confident\nE. pride",
+      "gold": "D",
+      "pred": "E",
+      "correct": false,
+      "raw_output": "E"
+    },
+    {
+      "id": 68,
+      "input": "Question: Where would you find a single shower curtain being used?\nA. bathtub\nB. washing area\nC. hotel\nD. shower stall\nE. department store",
+      "gold": "A",
+      "pred": "D",
+      "correct": false,
+      "raw_output": "D"
+    },
+    {
+      "id": 69,
+      "input": "Question: Where is a good idea but not required to have a fire extinguisher?\nA. school bus\nB. boat\nC. house\nD. hospital\nE. school",
+      "gold": "C",
+      "pred": "A",
+      "correct": false,
+      "raw_output": "A"
+    },
+    {
+      "id": 70,
+      "input": "Question: What continent has the most castles?\nA. fairy tale\nB. edinburgh\nC. germany\nD. europe\nE. antarctica",
+      "gold": "D",
+      "pred": "D",
+      "correct": true,
+      "raw_output": "D"
+    },
+    {
+      "id": 71,
+      "input": "Question: If you have to read a book that is very dry and long you may become what?\nA. have time\nB. boring\nC. learn new\nD. enjoyable\nE. bored",
+      "gold": "E",
+      "pred": "E",
+      "correct": true,
+      "raw_output": "E"
+    },
+    {
+      "id": 72,
+      "input": "Question: Sally used a clipboard to hold her papers while she read off names at the beginning of the day.  Where might she work?\nA. desk\nB. windows 95\nC. office supply store\nD. see work\nE. school",
+      "gold": "E",
+      "pred": "E",
+      "correct": true,
+      "raw_output": "E"
+    },
+    {
+      "id": 73,
+      "input": "Question: The kids didn't clean up after they had done what?\nA. learn things\nB. play games\nC. disneyland\nD. play with toys\nE. talking",
+      "gold": "D",
+      "pred": "B",
+      "correct": false,
+      "raw_output": "B"
+    },
+    {
+      "id": 74,
+      "input": "Question: Despite the name a pawn can be quite versatile, all the parts are important in a what?\nA. chess game\nB. scheme\nC. chess set\nD. checkers\nE. north carolina",
+      "gold": "A",
+      "pred": "A",
+      "correct": true,
+      "raw_output": "A"
+    },
+    {
+      "id": 75,
+      "input": "Question: What would not be true about a basketball if it had a hole in it but it did not lose its general shape?\nA. punctured\nB. popular in america\nC. full of air\nD. gone\nE. round",
+      "gold": "C",
+      "pred": "E",
+      "correct": false,
+      "raw_output": "E"
+    },
+    {
+      "id": 76,
+      "input": "Question: If you are awaking multiple times throughout the night because a lot is on your mind, what is a likely cause?\nA. irritability\nB. depression\nC. getting out of bed\nD. happiness\nE. discomfort",
+      "gold": "B",
+      "pred": "B",
+      "correct": true,
+      "raw_output": "B"
+    },
+    {
+      "id": 77,
+      "input": "Question: Where does a wild bird usually live?\nA. cage\nB. sky\nC. countryside\nD. desert\nE. windowsill",
+      "gold": "C",
+      "pred": "C",
+      "correct": true,
+      "raw_output": "C"
+    },
+    {
+      "id": 78,
+      "input": "Question: Where would you expect to find white mice?\nA. bell cat\nB. bush\nC. attic\nD. countryside\nE. laboratory",
+      "gold": "E",
+      "pred": "D",
+      "correct": false,
+      "raw_output": "D"
+    },
+    {
+      "id": 79,
+      "input": "Question: John felt that his actions were fate.   Harry said that he could have always made a different what?\nA. free will\nB. choice\nC. will\nD. alcohol\nE. freedom",
+      "gold": "B",
+      "pred": "B",
+      "correct": true,
+      "raw_output": "B"
+    },
+    {
+      "id": 80,
+      "input": "Question: What could committing murder prevent someone from doing?\nA. go to jail\nB. cry\nC. find god\nD. guilty conscience\nE. problems",
+      "gold": "C",
+      "pred": "A",
+      "correct": false,
+      "raw_output": "A"
+    },
+    {
+      "id": 81,
+      "input": "Question: George didn't have a car, but he still had his two feet.   His socks were smelly and his soles were blistered, but that didn't matter.  He could still do what?\nA. michigan\nB. walk\nC. stay still\nD. stink\nE. hands",
+      "gold": "B",
+      "pred": "B",
+      "correct": true,
+      "raw_output": "B"
+    },
+    {
+      "id": 82,
+      "input": "Question: A crane uses many a steel cable when working a what?\nA. abaft\nB. ship\nC. winch\nD. construction site\nE. building",
+      "gold": "D",
+      "pred": "D",
+      "correct": true,
+      "raw_output": "D"
+    },
+    {
+      "id": 83,
+      "input": "Question: What is the main purpose of farmers?\nA. raise cattle\nB. grow corn\nC. farm land\nD. drive tractors\nE. supply food",
+      "gold": "E",
+      "pred": "E",
+      "correct": true,
+      "raw_output": "E"
+    },
+    {
+      "id": 84,
+      "input": "Question: Where can I put this penny to save for later?\nA. piggy bank\nB. wallet\nC. toy\nD. ground\nE. pocket",
+      "gold": "A",
+      "pred": "A",
+      "correct": true,
+      "raw_output": "A"
+    },
+    {
+      "id": 85,
+      "input": "Question: Where would you put uncooked crab meat?\nA. wharf\nB. red lobster\nC. tidepools\nD. boss's office\nE. stew pot",
+      "gold": "E",
+      "pred": "E",
+      "correct": true,
+      "raw_output": "E"
+    },
+    {
+      "id": 86,
+      "input": "Question: The man had a fear of illness, so he never visited friends who were a what?\nA. sick person\nB. hospital\nC. elderly person\nD. graveyard\nE. doctor's office",
+      "gold": "A",
+      "pred": "C",
+      "correct": false,
+      "raw_output": "C"
+    },
+    {
+      "id": 87,
+      "input": "Question: Where would you put pans if you want to bring them with you?\nA. cooking\nB. cook food\nC. kitchen\nD. backpack\nE. drawer",
+      "gold": "D",
+      "pred": "D",
+      "correct": true,
+      "raw_output": "D"
+    },
+    {
+      "id": 88,
+      "input": "Question: If you're remembering something, it's because of your what of it to begin with?\nA. knowledge\nB. knowing\nC. forgetful\nD. pleasure\nE. depression",
+      "gold": "B",
+      "pred": "A",
+      "correct": false,
+      "raw_output": "A"
+    },
+    {
+      "id": 89,
+      "input": "Question: Which large land mass is home to the most monkeys?\nA. amazon basin\nB. friend's house\nC. lift number 3\nD. research laboratory\nE. african continent",
+      "gold": "E",
+      "pred": "A",
+      "correct": false,
+      "raw_output": "A"
+    },
+    {
+      "id": 90,
+      "input": "Question: Friday was James's 5th Anniversary.  They planned on going to bed early so that they could spend a long time doing what?\nA. rest\nB. insomnia\nC. making love\nD. sleeping in\nE. texting",
+      "gold": "C",
+      "pred": "C",
+      "correct": true,
+      "raw_output": "C"
+    },
+    {
+      "id": 91,
+      "input": "Question: The teens were trying to hide that they get drink, but when they walked in the door their what gave it away?\nA. health\nB. fall down\nC. stagger\nD. get arrested\nE. vomit",
+      "gold": "C",
+      "pred": "D",
+      "correct": false,
+      "raw_output": "D"
+    },
+    {
+      "id": 92,
+      "input": "Question: You'll find a landing at the top of what?\nA. ocean\nB. apartment building\nC. stairwell\nD. airport\nE. room",
+      "gold": "C",
+      "pred": "D",
+      "correct": false,
+      "raw_output": "D"
+    },
+    {
+      "id": 93,
+      "input": "Question: Anybody could be hired in the kitchen, what was needed of them?\nA. forget\nB. oil squeaky hinge\nC. question authority\nD. wash dishes\nE. oik squeaky hinge",
+      "gold": "D",
+      "pred": "D",
+      "correct": true,
+      "raw_output": "D"
+    },
+    {
+      "id": 94,
+      "input": "Question: Where can you find a number of wind instruments together in public?\nA. music store\nB. create music\nC. zoo\nD. music room\nE. symphony",
+      "gold": "E",
+      "pred": "C",
+      "correct": false,
+      "raw_output": "C"
+    },
+    {
+      "id": 95,
+      "input": "Question: A mountie got off at a subway stop.  What city might he be in?\nA. urban area\nB. metropolis\nC. chicago\nD. new york city\nE. toronto",
+      "gold": "E",
+      "pred": "D",
+      "correct": false,
+      "raw_output": "D"
+    },
+    {
+      "id": 96,
+      "input": "Question: What do you want someone to do when you illustrate point?\nA. did not understand\nB. accepting\nC. make clear\nD. understood\nE. understanding",
+      "gold": "E",
+      "pred": "C",
+      "correct": false,
+      "raw_output": "C"
+    },
+    {
+      "id": 97,
+      "input": "Question: Billy set aside a block of time for having fun after work. Why might he do this?\nA. happiness\nB. stress relief\nC. pleasure\nD. ocean\nE. may laugh",
+      "gold": "B",
+      "pred": "B",
+      "correct": true,
+      "raw_output": "B"
+    },
+    {
+      "id": 98,
+      "input": "Question: The man in the white suit was very lazy.  He did nothing useful.  Meanwhile, the ban in the blue had put in effort and was very what?\nA. restless\nB. active\nC. lazybutt\nD. productive\nE. hard work",
+      "gold": "D",
+      "pred": "D",
+      "correct": true,
+      "raw_output": "D"
+    },
+    {
+      "id": 99,
+      "input": "Question: What would you be unable to do if you have too much greed?\nA. keep things\nB. make friends\nC. play poker\nD. conquer opponent\nE. lie",
+      "gold": "B",
+      "pred": "A",
+      "correct": false,
+      "raw_output": "A"
+    },
+    {
+      "id": 100,
+      "input": "Question: It was a long trip from the farm, so he stayed in a hotel when he arrived at the what?\nA. bed away from home\nB. wwii bunker\nC. resort\nD. las vegas\nE. city",
+      "gold": "E",
+      "pred": "E",
+      "correct": true,
+      "raw_output": "E"
+    },
+    {
+      "id": 101,
+      "input": "Question: I did not need a servant.  I was not a what?\nA. freedom\nB. rich person\nC. hired help\nD. in charge\nE. busy",
+      "gold": "B",
+      "pred": "B",
+      "correct": true,
+      "raw_output": "B"
+    },
+    {
+      "id": 102,
+      "input": "Question: How would you get from one side of a canal to another?\nA. michigan\nB. amsterdam\nC. venice\nD. bridge\nE. barges to travel on",
+      "gold": "D",
+      "pred": "D",
+      "correct": true,
+      "raw_output": "D"
+    },
+    {
+      "id": 103,
+      "input": "Question: When learning about the world and different cultures, what is important if you are committed to eliminating preconceived notions\nA. newness\nB. loss of innocence\nC. enlightenment\nD. open mind\nE. smartness",
+      "gold": "D",
+      "pred": "D",
+      "correct": true,
+      "raw_output": "D"
+    },
+    {
+      "id": 104,
+      "input": "Question: An underrated thing about computers is how they manage workflow, at one time it was a big deal when they could first do what?\nA. share files\nB. do arithmetic\nC. turn on\nD. cost money\nE. multitask",
+      "gold": "E",
+      "pred": "E",
+      "correct": true,
+      "raw_output": "E"
+    },
+    {
+      "id": 105,
+      "input": "Question: Obstructing justice is sometimes an excuse used for police brutality which causes what in people?\nA. committing perjury\nB. prosecution\nC. attack\nD. getting hurt\nE. riot",
+      "gold": "D",
+      "pred": "D",
+      "correct": true,
+      "raw_output": "D"
+    },
+    {
+      "id": 106,
+      "input": "Question: While washing clothes they became what when caught on the sharp object?\nA. damaged\nB. wet clothes\nC. wear out\nD. torn\nE. have fun",
+      "gold": "D",
+      "pred": "D",
+      "correct": true,
+      "raw_output": "D"
+    },
+    {
+      "id": 107,
+      "input": "Question: Seafood restaurants are used to draw tourists where?\nA. maine\nB. shoe shop\nC. city\nD. boston\nE. coastal cities",
+      "gold": "E",
+      "pred": "E",
+      "correct": true,
+      "raw_output": "E"
+    },
+    {
+      "id": 108,
+      "input": "Question: James's nice asked him about her grandfather. She was interested in learning about what?\nA. family tree\nB. family reunion\nC. babysitting\nD. brother's house\nE. heirlooms",
+      "gold": "A",
+      "pred": "A",
+      "correct": true,
+      "raw_output": "A"
+    },
+    {
+      "id": 109,
+      "input": "Question: James looked up and saw the start twinkling in the black yonder.  He marveled the sheer number of them and the size of what?\nA. universe\nB. orbit\nC. night sky\nD. outer space\nE. his wallet",
+      "gold": "A",
+      "pred": "C",
+      "correct": false,
+      "raw_output": "C"
+    },
+    {
+      "id": 110,
+      "input": "Question: What would encourage someone to continue playing tennis?\nA. becoming tired\nB. tennis elbow\nC. exercise\nD. hunger\nE. victory",
+      "gold": "E",
+      "pred": "E",
+      "correct": true,
+      "raw_output": "E"
+    },
+    {
+      "id": 111,
+      "input": "Question: James found the sound relaxing.   It was so relaxing he almost did what despite his efforts?\nA. deep breathing\nB. worried\nC. fall asleep\nD. invigorating\nE. feeling good",
+      "gold": "C",
+      "pred": "E",
+      "correct": false,
+      "raw_output": "E"
+    },
+    {
+      "id": 112,
+      "input": "Question: What regions of a town would you have found a dime store?\nA. commercial building\nB. old movie\nC. small neighborhood\nD. past\nE. mall",
+      "gold": "C",
+      "pred": "C",
+      "correct": true,
+      "raw_output": "C"
+    },
+    {
+      "id": 113,
+      "input": "Question: Where might an unused chess set be stored?\nA. toy store\nB. michigan\nC. living room\nD. attic\nE. cupboard",
+      "gold": "E",
+      "pred": "E",
+      "correct": true,
+      "raw_output": "E"
+    },
+    {
+      "id": 114,
+      "input": "Question: james told his son to settle down and be careful.  There were many frogs mating in the area, and James didn't want his son to do what to them?\nA. wander\nB. migrate\nC. scare\nD. disturb\nE. agitate",
+      "gold": "D",
+      "pred": "D",
+      "correct": true,
+      "raw_output": "D"
+    },
+    {
+      "id": 115,
+      "input": "Question: A man wants air conditioning while we watches the game on Saturday, where will it likely be installed?\nA. car\nB. house\nC. offices\nD. park\nE. movie theatre",
+      "gold": "B",
+      "pred": "E",
+      "correct": false,
+      "raw_output": "E"
+    },
+    {
+      "id": 116,
+      "input": "Question: What could be playing a balailaika?\nA. movie dr\nB. orchestra\nC. music store\nD. cat\nE. symphony",
+      "gold": "B",
+      "pred": "E",
+      "correct": false,
+      "raw_output": "E"
+    },
+    {
+      "id": 117,
+      "input": "Question: Sailors drive many different types of boats, what type of boat involves their namesake.\nA. coming home\nB. row boat\nC. board ship\nD. inflatable raft\nE. sail boat",
+      "gold": "E",
+      "pred": "E",
+      "correct": true,
+      "raw_output": "E"
+    },
+    {
+      "id": 118,
+      "input": "Question: Where could a person avoid the rain?\nA. bus stop\nB. tunnel\nC. synagogue\nD. fairy tale\nE. street corner",
+      "gold": "C",
+      "pred": "A",
+      "correct": false,
+      "raw_output": "A"
+    },
+    {
+      "id": 119,
+      "input": "Question: Why would a person like to have a large house?\nA. have choice\nB. mentally challenged\nC. own house\nD. obesity\nE. lots of space",
+      "gold": "E",
+      "pred": "E",
+      "correct": true,
+      "raw_output": "E"
+    },
+    {
+      "id": 120,
+      "input": "Question: Where will a cheap book be found?\nA. bookstore\nB. classroom\nC. discount store\nD. school room\nE. bedside table",
+      "gold": "C",
+      "pred": "A",
+      "correct": false,
+      "raw_output": "A"
+    },
+    {
+      "id": 121,
+      "input": "Question: John and James are idiots. They bought two tickets to the Falcons vs the Jets even though neither wanted to see the what?\nA. internet cafe\nB. sporting event\nC. pressing wrong buttons\nD. obesity\nE. hockey game",
+      "gold": "B",
+      "pred": "B",
+      "correct": true,
+      "raw_output": "B"
+    },
+    {
+      "id": 122,
+      "input": "Question: James noticed that his penis was bigger. .  How might he act toward his plastic surgeon?\nA. accidental\nB. detestable\nC. effusive\nD. enabled\nE. apathetic",
+      "gold": "C",
+      "pred": "C",
+      "correct": true,
+      "raw_output": "C"
+    },
+    {
+      "id": 123,
+      "input": "Question: Who do professors work with?\nA. methods of facts\nB. teach courses\nC. wear wrinkled tweed jackets\nD. school students\nE. state facts",
+      "gold": "D",
+      "pred": "D",
+      "correct": true,
+      "raw_output": "D"
+    },
+    {
+      "id": 124,
+      "input": "Question: Colorful anemone look somewhat like what object you find on window sills?\nA. intertidal zone\nB. coral sea\nC. under water\nD. flower bed\nE. florida keys",
+      "gold": "D",
+      "pred": "D",
+      "correct": true,
+      "raw_output": "D"
+    },
+    {
+      "id": 125,
+      "input": "Question: From where do aliens arrive?\nA. outer space\nB. weekly world news\nC. roswell\nD. universe\nE. mars",
+      "gold": "A",
+      "pred": "A",
+      "correct": true,
+      "raw_output": "A"
+    },
+    {
+      "id": 126,
+      "input": "Question: The hikers stopped to have a drink, simply put they what?\nA. had a party\nB. were thirsty\nC. refreshment\nD. getting drunk\nE. celebrating",
+      "gold": "B",
+      "pred": "B",
+      "correct": true,
+      "raw_output": "B"
+    },
+    {
+      "id": 127,
+      "input": "Question: When you get up in the morning before you begin work you should do what?\nA. apply for job\nB. sleep\nC. concentrate\nD. shower\nE. just do",
+      "gold": "D",
+      "pred": "D",
+      "correct": true,
+      "raw_output": "D"
+    },
+    {
+      "id": 128,
+      "input": "Question: The kitten had nothing to dig it's claws into, so when it tried to stop it slid across what?\nA. living room\nB. floor\nC. warm place\nD. carpet\nE. farmhouse",
+      "gold": "B",
+      "pred": "B",
+      "correct": true,
+      "raw_output": "B"
+    },
+    {
+      "id": 129,
+      "input": "Question: If a person is trying to keep something in their hand what should they do?\nA. complete collection\nB. own house\nC. procrastinate\nD. explode\nE. have to hold",
+      "gold": "E",
+      "pred": "E",
+      "correct": true,
+      "raw_output": "E"
+    },
+    {
+      "id": 130,
+      "input": "Question: Where could you find hundreds of thousands of home?\nA. field\nB. neighborhood\nC. star can\nD. city or town\nE. apartment building",
+      "gold": "D",
+      "pred": "D",
+      "correct": true,
+      "raw_output": "D"
+    },
+    {
+      "id": 131,
+      "input": "Question: Playing baseball is a lot like any other sport, there is always a risk of what?\nA. sore muscles\nB. errors\nC. happiness\nD. injury\nE. fun",
+      "gold": "D",
+      "pred": "D",
+      "correct": true,
+      "raw_output": "D"
+    },
+    {
+      "id": 132,
+      "input": "Question: If I want to watch a movie without leaving my home what might I use?\nA. drive in movie\nB. drive in movie\nC. television\nD. video store\nE. show",
+      "gold": "C",
+      "pred": "D",
+      "correct": false,
+      "raw_output": "D"
+    },
+    {
+      "id": 133,
+      "input": "Question: The victim was to take stand today, they were going to do what?\nA. testify\nB. runaway\nC. witness\nD. tell truth\nE. go home",
+      "gold": "A",
+      "pred": "A",
+      "correct": true,
+      "raw_output": "A"
+    },
+    {
+      "id": 134,
+      "input": "Question: What does a successful dog grooming session likely to make a owner feel?\nA. cleanliness\nB. mistakes\nC. growth\nD. satisfaction\nE. late",
+      "gold": "D",
+      "pred": "D",
+      "correct": true,
+      "raw_output": "D"
+    },
+    {
+      "id": 135,
+      "input": "Question: The runner was in third place, but he pushed harder and thought he might be able to reach second.  What was beginning to do?\nA. near finish line\nB. finish\nC. get tired\nD. gain ground\nE. trip over",
+      "gold": "D",
+      "pred": "D",
+      "correct": true,
+      "raw_output": "D"
+    },
+    {
+      "id": 136,
+      "input": "Question: The tourist entered Mammoth cave, what state were they in?\nA. west virginia\nB. kentucky\nC. rocky hills\nD. scotland\nE. canyon",
+      "gold": "B",
+      "pred": "A",
+      "correct": false,
+      "raw_output": "A"
+    },
+    {
+      "id": 137,
+      "input": "Question: What does someone typically feel when applying for a job?\nA. horror\nB. anxiety and fear\nC. rejection\nD. increased workload\nE. being employed",
+      "gold": "B",
+      "pred": "B",
+      "correct": true,
+      "raw_output": "B"
+    },
+    {
+      "id": 138,
+      "input": "Question: He was on trial for obstructing justice, during which he made a questionable comment and was also found guilty of what?\nA. prosecution\nB. getting hurt\nC. sweat\nD. steam\nE. committing perjury",
+      "gold": "E",
+      "pred": "E",
+      "correct": true,
+      "raw_output": "E"
+    },
+    {
+      "id": 139,
+      "input": "Question: What kind of feelings does buying presents for others create?\nA. tears\nB. please\nC. like\nD. thank\nE. make happy",
+      "gold": "E",
+      "pred": "E",
+      "correct": true,
+      "raw_output": "E"
+    },
+    {
+      "id": 140,
+      "input": "Question: What green area is a marmot likely to be found in?\nA. countryside\nB. great plains\nC. encyclopedia\nD. jungle\nE. north america",
+      "gold": "A",
+      "pred": "A",
+      "correct": true,
+      "raw_output": "A"
+    },
+    {
+      "id": 141,
+      "input": "Question: Jan tested the current, and noticed that it was high.  He thought that the wires might have too much what?\nA. later\nB. updated\nC. still\nD. resistance\nE. now",
+      "gold": "D",
+      "pred": "D",
+      "correct": true,
+      "raw_output": "D"
+    },
+    {
+      "id": 142,
+      "input": "Question: What does a kindergarten teacher do before nap time?\nA. lower expectations\nB. encourage\nC. fear\nD. time test\nE. tell story",
+      "gold": "E",
+      "pred": "A",
+      "correct": false,
+      "raw_output": "A"
+    },
+    {
+      "id": 143,
+      "input": "Question: Sam was a stranger.  Even so, Mark treated him like what?\nA. friend\nB. family\nC. known person\nD. park\nE. outsider",
+      "gold": "B",
+      "pred": "C",
+      "correct": false,
+      "raw_output": "C"
+    },
+    {
+      "id": 144,
+      "input": "Question: Bob's only light source was a small bulb.  There were four walls, if there was a door he couldn't see it.  What was Bob in?\nA. closed room\nB. sky\nC. dard\nD. his grave\nE. house",
+      "gold": "A",
+      "pred": "E",
+      "correct": false,
+      "raw_output": "E"
+    },
+    {
+      "id": 145,
+      "input": "Question: James thought of criminal justice like a computer program.  It need to work right.   What ideas might James not like?\nA. manual\nB. process information\nC. power down\nD. control model\nE. reason exists",
+      "gold": "D",
+      "pred": "D",
+      "correct": true,
+      "raw_output": "D"
+    },
+    {
+      "id": 146,
+      "input": "Question: With the card slot lit up he knew how to get started finding his balance with what?\nA. slot machine\nB. ticket machine\nC. bank machine\nD. telephone\nE. automated teller",
+      "gold": "E",
+      "pred": "A",
+      "correct": false,
+      "raw_output": "A"
+    },
+    {
+      "id": 147,
+      "input": "Question: To play sports professionally you must do what very often?\nA. wash your clothes\nB. get in shape\nC. practice\nD. take off uniform\nE. stretch",
+      "gold": "C",
+      "pred": "C",
+      "correct": true,
+      "raw_output": "C"
+    },
+    {
+      "id": 148,
+      "input": "Question: Some people prefer releasing energy through work while others prefer to release it through what?\nA. motion\nB. stretch\nC. exercise\nD. movement\nE. muscles",
+      "gold": "C",
+      "pred": "A",
+      "correct": false,
+      "raw_output": "A"
+    },
+    {
+      "id": 149,
+      "input": "Question: What will a person going for a jog likely be wearing?\nA. grope\nB. acknowledgment\nC. comfortable clothes\nD. ipod\nE. passionate kisses",
+      "gold": "C",
+      "pred": "C",
+      "correct": true,
+      "raw_output": "C"
+    },
+    {
+      "id": 150,
+      "input": "Question: The child pretended he was reading newspaper, he couldn't actually do it without what?\nA. patience\nB. falling down\nC. literacy\nD. buying\nE. knowing how to read",
+      "gold": "E",
+      "pred": "E",
+      "correct": true,
+      "raw_output": "E"
+    },
+    {
+      "id": 151,
+      "input": "Question: Jenny enjoyed helping people.  It brought her a great deal of what?\nA. satisfaction\nB. complications\nC. train\nD. feel good about yourself\nE. enjoyment",
+      "gold": "A",
+      "pred": "E",
+      "correct": false,
+      "raw_output": "E"
+    },
+    {
+      "id": 152,
+      "input": "Question: What might someone believe in if they are cleaning clothes?\nA. feminism\nB. sanitation\nC. ruined\nD. wrinkles\nE. buttons to fall off",
+      "gold": "B",
+      "pred": "A",
+      "correct": false,
+      "raw_output": "A"
+    },
+    {
+      "id": 153,
+      "input": "Question: Where would you find a basement that can be accessed with an elevator?\nA. eat cake\nB. closet\nC. church\nD. office building\nE. own house",
+      "gold": "D",
+      "pred": "E",
+      "correct": false,
+      "raw_output": "E"
+    },
+    {
+      "id": 154,
+      "input": "Question: In order to learn to program from another person you can do what?\nA. learn how to\nB. have a friend\nC. knowledge\nD. take class\nE. have computer",
+      "gold": "D",
+      "pred": "D",
+      "correct": true,
+      "raw_output": "D"
+    },
+    {
+      "id": 155,
+      "input": "Question: He was at the gym trying to build muscle, what is it called that he is trying to build muscle on?\nA. body of animal\nB. arm\nC. bodybuilder\nD. body of dog\nE. human body",
+      "gold": "E",
+      "pred": "C",
+      "correct": false,
+      "raw_output": "C"
+    },
+    {
+      "id": 156,
+      "input": "Question: What part of plants is pretty?\nA. dirt\nB. no neurons in\nC. millions of cells\nD. flowers on\nE. roots",
+      "gold": "D",
+      "pred": "D",
+      "correct": true,
+      "raw_output": "D"
+    },
+    {
+      "id": 157,
+      "input": "Question: The man was going fishing instead of work, what is he seeking?\nA. food\nB. relaxation\nC. killing\nD. missing morning cartoons\nE. boredom",
+      "gold": "B",
+      "pred": "B",
+      "correct": true,
+      "raw_output": "B"
+    },
+    {
+      "id": 158,
+      "input": "Question: What could you get an unsmooth pit from?\nA. backyard\nB. rock\nC. mine\nD. cherry\nE. peach",
+      "gold": "E",
+      "pred": "C",
+      "correct": false,
+      "raw_output": "C"
+    },
+    {
+      "id": 159,
+      "input": "Question: The man tried to reply to the woman, but he had difficulty keeping track of conversations that he didn't do what to?\nA. initiate\nB. ignore\nC. question\nD. answer\nE. ask",
+      "gold": "A",
+      "pred": "D",
+      "correct": false,
+      "raw_output": "D"
+    },
+    {
+      "id": 160,
+      "input": "Question: I couldn't find anybody who recalled the event, what were they adroit at doing?\nA. question authority\nB. act fool\nC. wash dishes\nD. act innocent\nE. forget",
+      "gold": "E",
+      "pred": "A",
+      "correct": false,
+      "raw_output": "A"
+    },
+    {
+      "id": 161,
+      "input": "Question: Where would you find a large dining room containing a fancy chandelier?\nA. mansion\nB. every house\nC. own home\nD. table\nE. restaurant",
+      "gold": "A",
+      "pred": "A",
+      "correct": true,
+      "raw_output": "A"
+    },
+    {
+      "id": 162,
+      "input": "Question: The extremely large cargo plane could only land at a specialized runway, these were only located at a what?\nA. back yard\nB. bowling alley\nC. city\nD. military base\nE. fashion show",
+      "gold": "D",
+      "pred": "D",
+      "correct": true,
+      "raw_output": "D"
+    },
+    {
+      "id": 163,
+      "input": "Question: The carpet was smelly and discouraged the league from playing there, where was this smelly carpet installed?\nA. bedroom\nB. movie theater\nC. bowling alley\nD. church\nE. office",
+      "gold": "C",
+      "pred": "C",
+      "correct": true,
+      "raw_output": "C"
+    },
+    {
+      "id": 164,
+      "input": "Question: How can someone be let into a brownstone?\nA. brooklyn\nB. ring\nC. subdivision\nD. bricks\nE. new york city",
+      "gold": "B",
+      "pred": "E",
+      "correct": false,
+      "raw_output": "E"
+    },
+    {
+      "id": 165,
+      "input": "Question: Where would someone purchase an upright piano?\nA. music class\nB. college\nC. music store\nD. music room\nE. music band",
+      "gold": "C",
+      "pred": "C",
+      "correct": true,
+      "raw_output": "C"
+    },
+    {
+      "id": 166,
+      "input": "Question: Where would you keep an ottoman near your front door?\nA. living room\nB. parlor\nC. furniture store\nD. basement\nE. kitchen",
+      "gold": "A",
+      "pred": "A",
+      "correct": true,
+      "raw_output": "A"
+    },
+    {
+      "id": 167,
+      "input": "Question: Diving into backyard pools can be very dangerous and can lead to serious head and what?\nA. going somewhere\nB. splats\nC. cancer\nD. getting wet\nE. spinal injuries",
+      "gold": "E",
+      "pred": "E",
+      "correct": true,
+      "raw_output": "E"
+    },
+    {
+      "id": 168,
+      "input": "Question: Where would one find a snake in a cage?\nA. tropical forest\nB. oregon\nC. woods\nD. pet store\nE. louisiana",
+      "gold": "D",
+      "pred": "D",
+      "correct": true,
+      "raw_output": "D"
+    },
+    {
+      "id": 169,
+      "input": "Question: Where are people likely to become impatient?\nA. end of line\nB. buildings\nC. apartment\nD. neighbor's house\nE. address",
+      "gold": "A",
+      "pred": "A",
+      "correct": true,
+      "raw_output": "A"
+    },
+    {
+      "id": 170,
+      "input": "Question: When you fail to finish something, you failed at doing what to it\nA. winning\nB. passing\nC. completing\nD. do well\nE. succeeding",
+      "gold": "C",
+      "pred": "C",
+      "correct": true,
+      "raw_output": "C"
+    },
+    {
+      "id": 171,
+      "input": "Question: John didn't care about style.  He felt that form was less important than what?\nA. shapeless\nB. quality\nC. function\nD. change shape\nE. chaos",
+      "gold": "C",
+      "pred": "C",
+      "correct": true,
+      "raw_output": "C"
+    },
+    {
+      "id": 172,
+      "input": "Question: When you get together with friends to watch film, you might do plenty of this?\nA. see what happens\nB. enjoy stories\nC. pass time\nD. have fun\nE. interesting",
+      "gold": "D",
+      "pred": "C",
+      "correct": false,
+      "raw_output": "C"
+    },
+    {
+      "id": 173,
+      "input": "Question: A supermarket is uncommon in what type of collection of shops?\nA. strip mall\nB. city or town\nC. shoppingcentre\nD. boutique\nE. vermont",
+      "gold": "A",
+      "pred": "A",
+      "correct": true,
+      "raw_output": "A"
+    },
+    {
+      "id": 174,
+      "input": "Question: Bill puts meat on the scale, where does Bill work?\nA. music store\nB. assay office\nC. tidal wave\nD. butcher shop\nE. bathroom",
+      "gold": "D",
+      "pred": "D",
+      "correct": true,
+      "raw_output": "D"
+    },
+    {
+      "id": 175,
+      "input": "Question: I'm having some food at my party, what will I need to serve it?\nA. zoo\nB. pan\nC. bowl\nD. kitchen\nE. spoon",
+      "gold": "E",
+      "pred": "C",
+      "correct": false,
+      "raw_output": "C"
+    },
+    {
+      "id": 176,
+      "input": "Question: Before racers start to run they must do what at the starting line?\nA. learn to walk\nB. walking\nC. walk slowly\nD. breathe\nE. stand still",
+      "gold": "E",
+      "pred": "E",
+      "correct": true,
+      "raw_output": "E"
+    },
+    {
+      "id": 177,
+      "input": "Question: What does an actor do when they are bored of their roles?\nA. mask\nB. branch out\nC. wear costume\nD. pretend\nE. sing songs",
+      "gold": "B",
+      "pred": "E",
+      "correct": false,
+      "raw_output": "E"
+    },
+    {
+      "id": 178,
+      "input": "Question: What is a person called who doesn't have immortality?\nA. mortal\nB. dying\nC. death\nD. dead\nE. mortal",
+      "gold": "E",
+      "pred": "A",
+      "correct": false,
+      "raw_output": "A"
+    },
+    {
+      "id": 179,
+      "input": "Question: Why would you be watching tv instead of doing something else?\nA. headache\nB. laughter\nC. laziness\nD. erections\nE. wasting time",
+      "gold": "C",
+      "pred": "E",
+      "correct": false,
+      "raw_output": "E"
+    },
+    {
+      "id": 180,
+      "input": "Question: If chewing food is difficult for you, what is a possible reason?\nA. broken jaw\nB. sore mouth\nC. eating\nD. good digestion\nE. avoiding choking",
+      "gold": "B",
+      "pred": "B",
+      "correct": true,
+      "raw_output": "B"
+    },
+    {
+      "id": 181,
+      "input": "Question: He had to wear a tuxedo while playing the keyboard instrument, so did the other hundred members of the what?\nA. music store\nB. band\nC. medium\nD. orchestra\nE. piano store",
+      "gold": "D",
+      "pred": "D",
+      "correct": true,
+      "raw_output": "D"
+    },
+    {
+      "id": 182,
+      "input": "Question: Where do you find the most amount of leafs?\nA. floral arrangement\nB. ground\nC. forrest\nD. field\nE. compost pile",
+      "gold": "C",
+      "pred": "C",
+      "correct": true,
+      "raw_output": "C"
+    },
+    {
+      "id": 183,
+      "input": "Question: Where can children play with animals?\nA. meadow\nB. play room\nC. surface of earth\nD. zoos\nE. fairgrounds",
+      "gold": "E",
+      "pred": "E",
+      "correct": true,
+      "raw_output": "E"
+    },
+    {
+      "id": 184,
+      "input": "Question: What kind of tale might feature a talking weasel?\nA. mulberry bush\nB. animated film\nC. chicken coop\nD. history book\nE. children's story",
+      "gold": "E",
+      "pred": "E",
+      "correct": true,
+      "raw_output": "E"
+    },
+    {
+      "id": 185,
+      "input": "Question: What kind of status is the bald eagle given?\nA. outside\nB. world\nC. protection\nD. colorado\nE. america",
+      "gold": "C",
+      "pred": "B",
+      "correct": false,
+      "raw_output": "B"
+    },
+    {
+      "id": 186,
+      "input": "Question: Why do most people take a quick rest during the day?\nA. need to\nB. hungry\nC. feel more energetic\nD. weak\nE. regenerate",
+      "gold": "C",
+      "pred": "C",
+      "correct": true,
+      "raw_output": "C"
+    },
+    {
+      "id": 187,
+      "input": "Question: What could suddenly stop someone when he or she is running?\nA. mushroom\nB. falling down\nC. sweating\nD. exhaustion\nE. getting tired",
+      "gold": "B",
+      "pred": "C",
+      "correct": false,
+      "raw_output": "C"
+    },
+    {
+      "id": 188,
+      "input": "Question: Where would you find a monkey in the wild?\nA. zoo\nB. barrel\nC. research laboratory\nD. captivity\nE. thailand",
+      "gold": "E",
+      "pred": "A",
+      "correct": false,
+      "raw_output": "A"
+    },
+    {
+      "id": 189,
+      "input": "Question: Where could a sloth live?\nA. tropical jungle\nB. manual\nC. work\nD. transit\nE. countryside",
+      "gold": "A",
+      "pred": "A",
+      "correct": true,
+      "raw_output": "A"
+    },
+    {
+      "id": 190,
+      "input": "Question: A gentleman is carrying equipment for golf, what is he likely to have?\nA. club\nB. assembly hall\nC. meditation center\nD. meeting\nE. church",
+      "gold": "A",
+      "pred": "A",
+      "correct": true,
+      "raw_output": "A"
+    },
+    {
+      "id": 191,
+      "input": "Question: If you have a home with a courtyard, what's one thing you probably don't have to care for any longer?\nA. lawn\nB. kids\nC. asshole\nD. spain\nE. office complex",
+      "gold": "A",
+      "pred": "A",
+      "correct": true,
+      "raw_output": "A"
+    },
+    {
+      "id": 192,
+      "input": "Question: The computer was difficult for he to understand at the store, so what did she sign up for to learn more?\nA. classroom\nB. facebook\nC. school\nD. apartment\nE. demonstration",
+      "gold": "E",
+      "pred": "E",
+      "correct": true,
+      "raw_output": "E"
+    },
+    {
+      "id": 193,
+      "input": "Question: If you take the risk buying a used car, you still hope it can what?\nA. go fast\nB. start running\nC. going too fast\nD. look good\nE. last several years",
+      "gold": "E",
+      "pred": "D",
+      "correct": false,
+      "raw_output": "D"
+    },
+    {
+      "id": 194,
+      "input": "Question: Dan was ditting quietly on the couch with a book in his hand.  Laurie thought that he was just focused on what he was doing, but he actually did what?\nA. eat\nB. think\nC. reading\nD. meditate\nE. fall asleep",
+      "gold": "E",
+      "pred": "B",
+      "correct": false,
+      "raw_output": "B"
+    },
+    {
+      "id": 195,
+      "input": "Question: What is the primary purpose of cars?\nA. cost money\nB. slow down\nC. move people\nD. turn right\nE. get girls",
+      "gold": "C",
+      "pred": "C",
+      "correct": true,
+      "raw_output": "C"
+    },
+    {
+      "id": 196,
+      "input": "Question: Alabama is full of different people, but they are all citizens of what?\nA. united states\nB. deep south\nC. floribama\nD. gulf states\nE. florabama",
+      "gold": "A",
+      "pred": "A",
+      "correct": true,
+      "raw_output": "A"
+    },
+    {
+      "id": 197,
+      "input": "Question: They were hoping their campaign would create a rise in awareness of the problem and hopefully do what to its effect?\nA. set\nB. fall\nC. park\nD. descend\nE. reduce",
+      "gold": "E",
+      "pred": "E",
+      "correct": true,
+      "raw_output": "E"
+    },
+    {
+      "id": 198,
+      "input": "Question: What do airplanes do as they are arriving at the gate?\nA. slow down\nB. crash\nC. speed up\nD. land\nE. carry people",
+      "gold": "A",
+      "pred": "C",
+      "correct": false,
+      "raw_output": "C"
+    },
+    {
+      "id": 199,
+      "input": "Question: If a person with mental illness stops treatment what will likely happen?\nA. managed\nB. dancing\nC. recur\nD. effectively treated\nE. cause suffering",
+      "gold": "C",
+      "pred": "C",
+      "correct": true,
+      "raw_output": "C"
+    },
+    {
+      "id": 200,
+      "input": "Question: The gimmicky low brow TV show was about animals when they what?\nA. sick\nB. mammals\nC. males\nD. bite\nE. attack",
+      "gold": "E",
+      "pred": "A",
+      "correct": false,
+      "raw_output": "A"
+    },
+    {
+      "id": 201,
+      "input": "Question: A loud machine is irritating, but many are expected where?\nA. museum\nB. house\nC. laboratory\nD. library\nE. industrial area",
+      "gold": "E",
+      "pred": "E",
+      "correct": true,
+      "raw_output": "E"
+    },
+    {
+      "id": 202,
+      "input": "Question: What part of a table would you put a ruler in?\nA. drawer\nB. desk\nC. the backside\nD. office\nE. measure distance",
+      "gold": "A",
+      "pred": "C",
+      "correct": false,
+      "raw_output": "C"
+    },
+    {
+      "id": 203,
+      "input": "Question: What happens if someone kisses too long?\nA. strong feelings\nB. herpes\nC. shortness of breath\nD. excitement\nE. arousal",
+      "gold": "C",
+      "pred": "C",
+      "correct": true,
+      "raw_output": "C"
+    },
+    {
+      "id": 204,
+      "input": "Question: If I have a modern light source in my living room, what is it likely to be?\nA. sky\nB. house\nC. lamp\nD. match\nE. candle",
+      "gold": "C",
+      "pred": "C",
+      "correct": true,
+      "raw_output": "C"
+    },
+    {
+      "id": 205,
+      "input": "Question: The person saw the mess his children made, what was his following reaction?\nA. smell smoke\nB. cross street\nC. cry\nD. bank savings\nE. look angry",
+      "gold": "E",
+      "pred": "E",
+      "correct": true,
+      "raw_output": "E"
+    },
+    {
+      "id": 206,
+      "input": "Question: Who might wear dark glasses indoors?\nA. blind person\nB. glove box\nC. movie studio\nD. ray charles\nE. glove compartment",
+      "gold": "A",
+      "pred": "A",
+      "correct": true,
+      "raw_output": "A"
+    },
+    {
+      "id": 207,
+      "input": "Question: Where would stones not be arranged in a path?\nA. quarries\nB. field\nC. park\nD. bridge\nE. made from rocks",
+      "gold": "B",
+      "pred": "A",
+      "correct": false,
+      "raw_output": "A"
+    },
+    {
+      "id": 208,
+      "input": "Question: A bald eagle is likely to be found on what kind of work?\nA. rural area\nB. book\nC. canada\nD. painting\nE. aviary",
+      "gold": "D",
+      "pred": "D",
+      "correct": true,
+      "raw_output": "D"
+    },
+    {
+      "id": 209,
+      "input": "Question: The hostess was good at her job, she always had a smile when she would what?\nA. group people\nB. ready parlor for guests\nC. welcome guests\nD. work room\nE. park",
+      "gold": "C",
+      "pred": "C",
+      "correct": true,
+      "raw_output": "C"
+    },
+    {
+      "id": 210,
+      "input": "Question: What is likely to happen to someone who is learning?\nA. overconfidence\nB. effectiveness\nC. knowing more\nD. head grows larger\nE. growth",
+      "gold": "C",
+      "pred": "C",
+      "correct": true,
+      "raw_output": "C"
+    },
+    {
+      "id": 211,
+      "input": "Question: The inspector was agreeing with the factory protocols, what was the status of the factory?\nA. compliance\nB. eligible\nC. contract\nD. harmony\nE. friendship",
+      "gold": "A",
+      "pred": "A",
+      "correct": true,
+      "raw_output": "A"
+    },
+    {
+      "id": 212,
+      "input": "Question: After standing up I had to sit right back down, why would I feel like this?\nA. train\nB. effort\nC. balance\nD. feet\nE. muscles",
+      "gold": "C",
+      "pred": "E",
+      "correct": false,
+      "raw_output": "E"
+    },
+    {
+      "id": 213,
+      "input": "Question: Where do you go on a night out before going to the bar?\nA. new york city\nB. las vegas\nC. restaurant\nD. nightclub\nE. park",
+      "gold": "C",
+      "pred": "C",
+      "correct": true,
+      "raw_output": "C"
+    },
+    {
+      "id": 214,
+      "input": "Question: The dad wanted to protect his house, where did he put his gun?\nA. police station\nB. crime scene\nC. restroom\nD. drawer\nE. holster",
+      "gold": "D",
+      "pred": "E",
+      "correct": false,
+      "raw_output": "E"
+    },
+    {
+      "id": 215,
+      "input": "Question: What instrument can be played with an air of happiness?\nA. jump up and down\nB. jump up and down\nC. sing\nD. play games\nE. fiddle",
+      "gold": "E",
+      "pred": "E",
+      "correct": true,
+      "raw_output": "E"
+    },
+    {
+      "id": 216,
+      "input": "Question: What to kids do for boredom on a ramp?\nA. watch film\nB. fire game\nC. hang out at bar\nD. go skiing\nE. skateboard",
+      "gold": "E",
+      "pred": "E",
+      "correct": true,
+      "raw_output": "E"
+    },
+    {
+      "id": 217,
+      "input": "Question: What animal has quills all over it?\nA. feather\nB. chicken\nC. calligraphy\nD. porcupine\nE. hedgehog",
+      "gold": "E",
+      "pred": "D",
+      "correct": false,
+      "raw_output": "D"
+    },
+    {
+      "id": 218,
+      "input": "Question: Why would you go to an office?\nA. work\nB. school building\nC. paper\nD. city\nE. habit",
+      "gold": "A",
+      "pred": "A",
+      "correct": true,
+      "raw_output": "A"
+    },
+    {
+      "id": 219,
+      "input": "Question: When is the worst time for having food?\nA. digesting\nB. not hungry\nC. gas\nD. weight gain\nE. feeling of fullness",
+      "gold": "B",
+      "pred": "A",
+      "correct": false,
+      "raw_output": "A"
+    },
+    {
+      "id": 220,
+      "input": "Question: If you spend all your time buying and not saving what is is likely to happen?\nA. using money\nB. feel better\nC. ocean\nD. losing money\nE. go broke",
+      "gold": "E",
+      "pred": "E",
+      "correct": true,
+      "raw_output": "E"
+    },
+    {
+      "id": 221,
+      "input": "Question: Though a mouse might prefer your house, you might also see him where?\nA. tin\nB. department store\nC. garden\nD. small hole\nE. cupboard",
+      "gold": "C",
+      "pred": "E",
+      "correct": false,
+      "raw_output": "E"
+    },
+    {
+      "id": 222,
+      "input": "Question: What is performing a type of?\nA. singing\nB. act\nC. feat\nD. smile\nE. acting",
+      "gold": "B",
+      "pred": "E",
+      "correct": false,
+      "raw_output": "E"
+    },
+    {
+      "id": 223,
+      "input": "Question: The car was going from Alabama to New York, what was its goal?\nA. head north\nB. speed up\nC. heading north\nD. go fast\nE. headed south",
+      "gold": "A",
+      "pred": "C",
+      "correct": false,
+      "raw_output": "C"
+    },
+    {
+      "id": 224,
+      "input": "Question: What do they call the trash in Australia?\nA. dirt\nB. subway\nC. state park\nD. container\nE. dustbin",
+      "gold": "E",
+      "pred": "E",
+      "correct": true,
+      "raw_output": "E"
+    },
+    {
+      "id": 225,
+      "input": "Question: Joan wants to cook a potato, where should she place it?\nA. boiling water\nB. paper bag\nC. restaurants\nD. underground\nE. cupboard",
+      "gold": "A",
+      "pred": "A",
+      "correct": true,
+      "raw_output": "A"
+    },
+    {
+      "id": 226,
+      "input": "Question: Writers with a great what can amass a large fortune?\nA. cookie\nB. bank\nC. real estate\nD. imagination\nE. bank roll",
+      "gold": "D",
+      "pred": "C",
+      "correct": false,
+      "raw_output": "C"
+    },
+    {
+      "id": 227,
+      "input": "Question: Where do all animals live?\nA. the moon\nB. fairgrounds\nC. surface of earth\nD. meadow\nE. zoos",
+      "gold": "C",
+      "pred": "C",
+      "correct": true,
+      "raw_output": "C"
+    },
+    {
+      "id": 228,
+      "input": "Question: How are the conditions for someone who is living in a homeless shelter?\nA. sometimes bad\nB. happy\nC. respiration\nD. growing older\nE. death",
+      "gold": "A",
+      "pred": "A",
+      "correct": true,
+      "raw_output": "A"
+    },
+    {
+      "id": 229,
+      "input": "Question: You can do knitting to get the feeling of what?\nA. relaxation\nB. arthritis\nC. adrenaline\nD. your\nE. sweater may produced",
+      "gold": "A",
+      "pred": "A",
+      "correct": true,
+      "raw_output": "A"
+    },
+    {
+      "id": 230,
+      "input": "Question: What might a very large table be?\nA. dining room\nB. conference\nC. kitchen\nD. in a lake\nE. demonstration",
+      "gold": "B",
+      "pred": "B",
+      "correct": true,
+      "raw_output": "B"
+    },
+    {
+      "id": 231,
+      "input": "Question: John got his tax refund back.  He treated it like it was what?\nA. candy\nB. death and\nC. free money\nD. discount\nE. credit",
+      "gold": "C",
+      "pred": "C",
+      "correct": true,
+      "raw_output": "C"
+    },
+    {
+      "id": 232,
+      "input": "Question: A person with an allergy might be doing what if they awake suddenly?\nA. have fun\nB. enjoy with friends\nC. stretch\nD. yawn\nE. sneezing",
+      "gold": "E",
+      "pred": "E",
+      "correct": true,
+      "raw_output": "E"
+    },
+    {
+      "id": 233,
+      "input": "Question: Where is a ferret unlikely to be?\nA. classroom\nB. outdoors\nC. aquarium\nD. north carolina\nE. great britain",
+      "gold": "A",
+      "pred": "A",
+      "correct": true,
+      "raw_output": "A"
+    },
+    {
+      "id": 234,
+      "input": "Question: If you jump in any of the oceans you will get?\nA. tanned\nB. wet\nC. wide\nD. very deep\nE. fish",
+      "gold": "B",
+      "pred": "B",
+      "correct": true,
+      "raw_output": "B"
+    },
+    {
+      "id": 235,
+      "input": "Question: Immediately after peeing, a person's bladder is what?\nA. collapsed\nB. empty\nC. full\nD. filled\nE. stretchable",
+      "gold": "B",
+      "pred": "C",
+      "correct": false,
+      "raw_output": "C"
+    },
+    {
+      "id": 236,
+      "input": "Question: The lady would eat and eat, and because of mental issues would then make herself what?\nA. wash dishes\nB. throwing up\nC. drinking\nD. throw up\nE. turn inside out",
+      "gold": "D",
+      "pred": "E",
+      "correct": false,
+      "raw_output": "E"
+    },
+    {
+      "id": 237,
+      "input": "Question: A car was hailed to chauffeur someone to the opera house, where was it heading?\nA. go downtown\nB. appear suddenly\nC. go fast\nD. bottom out\nE. east",
+      "gold": "A",
+      "pred": "C",
+      "correct": false,
+      "raw_output": "C"
+    },
+    {
+      "id": 238,
+      "input": "Question: What do you go to see for live entertainment?\nA. movie\nB. show\nC. concert venue\nD. casino\nE. theatre",
+      "gold": "B",
+      "pred": "A",
+      "correct": false,
+      "raw_output": "A"
+    },
+    {
+      "id": 239,
+      "input": "Question: The teacher thought that a ferret can be very mischievous and probably wouldn't make a great pet for the entire what?\nA. bad mood\nB. hutch\nC. classroom\nD. pair of trousers\nE. year",
+      "gold": "C",
+      "pred": "C",
+      "correct": true,
+      "raw_output": "C"
+    },
+    {
+      "id": 240,
+      "input": "Question: A creek is a body of water found in what low land?\nA. forest\nB. valley\nC. outdoors\nD. countryside\nE. woods",
+      "gold": "B",
+      "pred": "B",
+      "correct": true,
+      "raw_output": "B"
+    },
+    {
+      "id": 241,
+      "input": "Question: If I have a pet bird, what does it likely live in?\nA. forest\nB. bathroom\nC. windowsill\nD. countryside\nE. cage",
+      "gold": "E",
+      "pred": "E",
+      "correct": true,
+      "raw_output": "E"
+    },
+    {
+      "id": 242,
+      "input": "Question: Joe and Mac were playing basketball. They did it every day in their back yard.  Why were they playing basketball?\nA. study\nB. have fun\nC. pain\nD. cheers\nE. knee injury",
+      "gold": "B",
+      "pred": "B",
+      "correct": true,
+      "raw_output": "B"
+    },
+    {
+      "id": 243,
+      "input": "Question: What makes someone a nomad?\nA. unpleasant things\nB. hangnail\nC. have no home\nD. have no car\nE. schizophrenia",
+      "gold": "C",
+      "pred": "C",
+      "correct": true,
+      "raw_output": "C"
+    },
+    {
+      "id": 244,
+      "input": "Question: What is a treat that you dog will enjoy?\nA. salad\nB. petted\nC. affection\nD. bone\nE. lots of attention",
+      "gold": "D",
+      "pred": "D",
+      "correct": true,
+      "raw_output": "D"
+    },
+    {
+      "id": 245,
+      "input": "Question: Women used to be expected to wear a dress but it's now acceptable for them to wear what?\nA. man suit\nB. pants\nC. naked\nD. action\nE. long skirt",
+      "gold": "B",
+      "pred": "E",
+      "correct": false,
+      "raw_output": "E"
+    },
+    {
+      "id": 246,
+      "input": "Question: The fact that Joe was able to memorize the list in spite of his apparent  state proved that part of his brain was what?\nA. awake\nB. repeat\nC. sleeping\nD. concentrate\nE. read aloud",
+      "gold": "A",
+      "pred": "C",
+      "correct": false,
+      "raw_output": "C"
+    },
+    {
+      "id": 247,
+      "input": "Question: What is a wet person likely to do?\nA. gain weight\nB. thank god\nC. catch cold\nD. suicide\nE. cross street",
+      "gold": "C",
+      "pred": "E",
+      "correct": false,
+      "raw_output": "E"
+    },
+    {
+      "id": 248,
+      "input": "Question: After recovering from the disease, what did the doctor call the patient?\nA. healthy\nB. passing around\nC. cure\nD. wellness\nE. healthy",
+      "gold": "A",
+      "pred": "A",
+      "correct": true,
+      "raw_output": "A"
+    },
+    {
+      "id": 249,
+      "input": "Question: The painter started to edge the room with tape, he always took extra care to make the lines clean and crisp when working with an what?\nA. triangle\nB. middle\nC. corner\nD. center\nE. interior",
+      "gold": "E",
+      "pred": "A",
+      "correct": false,
+      "raw_output": "A"
+    },
+    {
+      "id": 250,
+      "input": "Question: After high tide, where on the coast can you look to find a sea anemone?\nA. nursery\nB. museum\nC. gulf of mexico\nD. tide pool\nE. intertidal zone",
+      "gold": "D",
+      "pred": "D",
+      "correct": true,
+      "raw_output": "D"
+    },
+    {
+      "id": 251,
+      "input": "Question: What could a driving car do to a pedestrian?\nA. say hello\nB. wreak\nC. pollution\nD. smoke\nE. relaxation",
+      "gold": "B",
+      "pred": "A",
+      "correct": false,
+      "raw_output": "A"
+    },
+    {
+      "id": 252,
+      "input": "Question: People do many things to alleviate boredom.  If you can't get out of the house you might decide to do what?\nA. play cards\nB. skateboard\nC. meet interesting people\nD. listen to music\nE. go to a concert",
+      "gold": "D",
+      "pred": "A",
+      "correct": false,
+      "raw_output": "A"
+    },
+    {
+      "id": 253,
+      "input": "Question: At a grocery store they sell individual potatoes, where does the grocery clerk likely put the potato?\nA. boiling water\nB. root cellar\nC. rocket ship\nD. paper bag\nE. underground",
+      "gold": "D",
+      "pred": "D",
+      "correct": true,
+      "raw_output": "D"
+    },
+    {
+      "id": 254,
+      "input": "Question: What room is a rubber bath mat usually kept?\nA. doorway\nB. living room\nC. sand\nD. floors\nE. bathroom",
+      "gold": "E",
+      "pred": "E",
+      "correct": true,
+      "raw_output": "E"
+    },
+    {
+      "id": 255,
+      "input": "Question: What would you put meat on top of to cook it?\nA. oil\nB. freezer\nC. ham sandwich\nD. oven\nE. frying pan",
+      "gold": "E",
+      "pred": "C",
+      "correct": false,
+      "raw_output": "C"
+    },
+    {
+      "id": 256,
+      "input": "Question: Minerals can be obtained in what way for a person who avoids leafy greens?\nA. multivitamin\nB. farm\nC. michigan\nD. earth\nE. ore",
+      "gold": "A",
+      "pred": "A",
+      "correct": true,
+      "raw_output": "A"
+    },
+    {
+      "id": 257,
+      "input": "Question: What could you be a few hours after you finish cashing in due to your cash?\nA. happy\nB. receiving money\nC. getting paid\nD. spending money\nE. selling out",
+      "gold": "A",
+      "pred": "C",
+      "correct": false,
+      "raw_output": "C"
+    },
+    {
+      "id": 258,
+      "input": "Question: The smelly man was having a bath, but what is he pursuing?\nA. hydration\nB. being clear\nC. personal cleanliness\nD. will drown\nE. use of water",
+      "gold": "C",
+      "pred": "D",
+      "correct": false,
+      "raw_output": "D"
+    },
+    {
+      "id": 259,
+      "input": "Question: What might a couple have a lot of when they are deciding on stopping being married to each other?\nA. pleasure\nB. detachment\nC. exercise\nD. bankruptcy\nE. fights",
+      "gold": "E",
+      "pred": "D",
+      "correct": false,
+      "raw_output": "D"
+    },
+    {
+      "id": 260,
+      "input": "Question: If a person is working a lot, what are they likely trying to earn?\nA. much money\nB. own house\nC. creativity\nD. new car\nE. caregiver",
+      "gold": "A",
+      "pred": "A",
+      "correct": true,
+      "raw_output": "A"
+    },
+    {
+      "id": 261,
+      "input": "Question: The traveling business man was glad his credit card had perks, it offset the high prices for travel from a what?\nA. car\nB. theatre\nC. airport\nD. hotel\nE. disneyland",
+      "gold": "C",
+      "pred": "D",
+      "correct": false,
+      "raw_output": "D"
+    },
+    {
+      "id": 262,
+      "input": "Question: Billy hated using other people's toilets. He was only comfortable on his own.  So whenever he needed to poop, he would go back to his what?\nA. bathroom\nB. motel room\nC. nearest public restroom\nD. house\nE. apartment",
+      "gold": "D",
+      "pred": "A",
+      "correct": false,
+      "raw_output": "A"
+    },
+    {
+      "id": 263,
+      "input": "Question: The forest experienced a cold winter, where is it located?\nA. earth\nB. south america\nC. amazon basin\nD. temperate zone\nE. national park",
+      "gold": "D",
+      "pred": "C",
+      "correct": false,
+      "raw_output": "C"
+    },
+    {
+      "id": 264,
+      "input": "Question: How can you let someone know about your anger without hurting him or her?\nA. release energy\nB. destroy enemy\nC. punch\nD. write letter\nE. lose your temper",
+      "gold": "D",
+      "pred": "D",
+      "correct": true,
+      "raw_output": "D"
+    },
+    {
+      "id": 265,
+      "input": "Question: Where is one likely to find a brownstone?\nA. new york city\nB. subdivision\nC. ring\nD. hazleton\nE. live in",
+      "gold": "A",
+      "pred": "A",
+      "correct": true,
+      "raw_output": "A"
+    },
+    {
+      "id": 266,
+      "input": "Question: What may I place the telephone on?\nA. bar\nB. friend's house\nC. desktop\nD. party\nE. office",
+      "gold": "C",
+      "pred": "C",
+      "correct": true,
+      "raw_output": "C"
+    },
+    {
+      "id": 267,
+      "input": "Question: What language type is someone from Iran likely to use?\nA. books\nB. dard\nC. sky\nD. closed room\nE. television",
+      "gold": "B",
+      "pred": "B",
+      "correct": true,
+      "raw_output": "B"
+    },
+    {
+      "id": 268,
+      "input": "Question: John went to a party that lasted all night.  Because of this, he didn't have time for what?\nA. meeting\nB. blowing off steam\nC. stay home\nD. partying hard\nE. studying",
+      "gold": "E",
+      "pred": "E",
+      "correct": true,
+      "raw_output": "E"
+    },
+    {
+      "id": 269,
+      "input": "Question: The child wasn't allowed in the kitchen but still wanted to help, what could it do to help in the dining room?\nA. set table\nB. form opinions\nC. make honey\nD. become adult\nE. gather flowers",
+      "gold": "A",
+      "pred": "A",
+      "correct": true,
+      "raw_output": "A"
+    },
+    {
+      "id": 270,
+      "input": "Question: He was having a hard time expressing himself in a healthy way, the psychologist said he was mentally what?\nA. slow\nB. understood\nC. suffering\nD. embarrassment\nE. fun",
+      "gold": "C",
+      "pred": "A",
+      "correct": false,
+      "raw_output": "A"
+    },
+    {
+      "id": 271,
+      "input": "Question: When someone is physically competing what does their body do?\nA. tension\nB. perform better\nC. releases heat\nD. winning or losing\nE. sweat",
+      "gold": "E",
+      "pred": "E",
+      "correct": true,
+      "raw_output": "E"
+    },
+    {
+      "id": 272,
+      "input": "Question: How would you express information to a deaf person?\nA. summarize main points\nB. close mouth\nC. write down\nD. may disagree\nE. talk",
+      "gold": "C",
+      "pred": "E",
+      "correct": false,
+      "raw_output": "E"
+    },
+    {
+      "id": 273,
+      "input": "Question: Printing on a printer can get expensive because it does what?\nA. explode\nB. use paper\nC. store information\nD. queue\nE. noise",
+      "gold": "B",
+      "pred": "B",
+      "correct": true,
+      "raw_output": "B"
+    },
+    {
+      "id": 274,
+      "input": "Question: What will god never do according to religion?\nA. anything\nB. judge people\nC. work miracles\nD. judge men\nE. everywhere",
+      "gold": "B",
+      "pred": "C",
+      "correct": false,
+      "raw_output": "C"
+    },
+    {
+      "id": 275,
+      "input": "Question: One of the potential hazards of attending school is what?\nA. cooties\nB. get smart\nC. boredom\nD. colds and flu\nE. taking tests",
+      "gold": "D",
+      "pred": "D",
+      "correct": true,
+      "raw_output": "D"
+    },
+    {
+      "id": 276,
+      "input": "Question: What has a surface with many sides?\nA. tetrahedron\nB. object\nC. geometry problem\nD. lake\nE. triangle",
+      "gold": "A",
+      "pred": "A",
+      "correct": true,
+      "raw_output": "A"
+    },
+    {
+      "id": 277,
+      "input": "Question: What could bring a container from one place to another?\nA. food\nB. refrigerator\nC. cargo ship\nD. port\nE. fuel",
+      "gold": "C",
+      "pred": "C",
+      "correct": true,
+      "raw_output": "C"
+    },
+    {
+      "id": 278,
+      "input": "Question: The old style pop ups literally let you see the story when you did what?\nA. giggle\nB. visualize\nC. open book\nD. reading\nE. go to movies",
+      "gold": "C",
+      "pred": "D",
+      "correct": false,
+      "raw_output": "D"
+    },
+    {
+      "id": 279,
+      "input": "Question: What is it called when you are talking to someone?\nA. communication\nB. quiet\nC. boredom\nD. persuaded\nE. learn",
+      "gold": "A",
+      "pred": "A",
+      "correct": true,
+      "raw_output": "A"
+    },
+    {
+      "id": 280,
+      "input": "Question: The family finished dinner, the child's chore was to load the dirty dishes where?\nA. restaurant kitchen\nB. dishwasher\nC. son's room\nD. cabinet\nE. party",
+      "gold": "B",
+      "pred": "B",
+      "correct": true,
+      "raw_output": "B"
+    },
+    {
+      "id": 281,
+      "input": "Question: Where could you find a bureau as well as many politicians?\nA. each city\nB. office building\nC. a zoo\nD. french government\nE. washington dc",
+      "gold": "E",
+      "pred": "E",
+      "correct": true,
+      "raw_output": "E"
+    },
+    {
+      "id": 282,
+      "input": "Question: Dad wanted to hide the check in his office, where did he put it?\nA. cash register\nB. desk drawer\nC. fish tank\nD. bank\nE. pay envelope",
+      "gold": "B",
+      "pred": "B",
+      "correct": true,
+      "raw_output": "B"
+    },
+    {
+      "id": 283,
+      "input": "Question: For some reason she was devoid of regular emotions, buying products was the only way she could feel what?\nA. pleasure\nB. owning\nC. debt\nD. spending money\nE. smart",
+      "gold": "A",
+      "pred": "A",
+      "correct": true,
+      "raw_output": "A"
+    },
+    {
+      "id": 284,
+      "input": "Question: Where are horses judged on appearance?\nA. race track\nB. fair\nC. raised by humans\nD. in a field\nE. countryside",
+      "gold": "B",
+      "pred": "B",
+      "correct": true,
+      "raw_output": "B"
+    },
+    {
+      "id": 285,
+      "input": "Question: Why do people read non fiction?\nA. having fun\nB. it's more relatable\nC. learn new things\nD. becoming absorbed\nE. falling asleep",
+      "gold": "C",
+      "pred": "C",
+      "correct": true,
+      "raw_output": "C"
+    },
+    {
+      "id": 286,
+      "input": "Question: While knitting you can do what using a radio?\nA. listen to music\nB. watch television\nC. making blankets\nD. eat\nE. watching tv",
+      "gold": "A",
+      "pred": "A",
+      "correct": true,
+      "raw_output": "A"
+    },
+    {
+      "id": 287,
+      "input": "Question: Where are you likely to set papers while working on them?\nA. table\nB. meeting\nC. drawer\nD. toilet\nE. garage",
+      "gold": "A",
+      "pred": "A",
+      "correct": true,
+      "raw_output": "A"
+    },
+    {
+      "id": 288,
+      "input": "Question: John had a massive debt to 50 million dollars.  Compared to that, Leo's 2000 dollar debt seemed what?\nA. dwarf\nB. inconsequential\nC. insubstantial\nD. lame\nE. tiny",
+      "gold": "C",
+      "pred": "E",
+      "correct": false,
+      "raw_output": "E"
+    },
+    {
+      "id": 289,
+      "input": "Question: The man flew his airplane over the city and saw pollution visibly in the sky, what was polluted?\nA. forest\nB. street\nC. air\nD. caused by humans\nE. car show",
+      "gold": "C",
+      "pred": "C",
+      "correct": true,
+      "raw_output": "C"
+    },
+    {
+      "id": 290,
+      "input": "Question: What is a very unlikely side effect of becoming inebriated?\nA. fights\nB. drunkenness\nC. staggering\nD. puke\nE. paralysis",
+      "gold": "E",
+      "pred": "E",
+      "correct": true,
+      "raw_output": "E"
+    },
+    {
+      "id": 291,
+      "input": "Question: when communicating with my boss what should i do\nA. misunderstandings\nB. transfer of information\nC. learning\nD. confusion\nE. silence",
+      "gold": "B",
+      "pred": "E",
+      "correct": false,
+      "raw_output": "E"
+    },
+    {
+      "id": 292,
+      "input": "Question: If not in a stream but in a market where will you find fish?\nA. stream\nB. aquarium\nC. refrigerator\nD. boat ride\nE. market",
+      "gold": "C",
+      "pred": "E",
+      "correct": false,
+      "raw_output": "E"
+    },
+    {
+      "id": 293,
+      "input": "Question: What are people likely to want to do with their friends?\nA. own land\nB. own home\nC. talk to each other\nD. believe in god\nE. spend time",
+      "gold": "E",
+      "pred": "E",
+      "correct": true,
+      "raw_output": "E"
+    },
+    {
+      "id": 294,
+      "input": "Question: During a shark filled tornado where should you not be?\nA. marine museum\nB. pool hall\nC. noodle house\nD. bad movie\nE. outside",
+      "gold": "E",
+      "pred": "E",
+      "correct": true,
+      "raw_output": "E"
+    },
+    {
+      "id": 295,
+      "input": "Question: What is the likely result of buying products in excess?\nA. running out of money\nB. spending money\nC. poverty\nD. comparison shopping\nE. overstocking",
+      "gold": "E",
+      "pred": "A",
+      "correct": false,
+      "raw_output": "A"
+    },
+    {
+      "id": 296,
+      "input": "Question: What is a person trying to accomplish when taking analgesics?\nA. acceptance\nB. avoid pain\nC. acknowledgment\nD. passing grade\nE. intellectual challenge",
+      "gold": "B",
+      "pred": "B",
+      "correct": true,
+      "raw_output": "B"
+    },
+    {
+      "id": 297,
+      "input": "Question: Where would you put a glass after drinking from it?\nA. ocean\nB. water cooler\nC. cabinet\nD. dishwasher\nE. dining room",
+      "gold": "D",
+      "pred": "B",
+      "correct": false,
+      "raw_output": "B"
+    },
+    {
+      "id": 298,
+      "input": "Question: Where would you buy food?\nA. freezer\nB. store\nC. home\nD. hatred\nE. kitchen",
+      "gold": "B",
+      "pred": "B",
+      "correct": true,
+      "raw_output": "B"
+    },
+    {
+      "id": 299,
+      "input": "Question: When a person admits his mistakes, what are they doing?\nA. accident\nB. learn to swim\nC. thank god\nD. feel relieved\nE. act responsibly",
+      "gold": "E",
+      "pred": "E",
+      "correct": true,
+      "raw_output": "E"
+    },
+    {
+      "id": 300,
+      "input": "Question: Where do play a game for money?\nA. casino\nB. football ground\nC. ballpark\nD. family room\nE. toy store",
+      "gold": "A",
+      "pred": "A",
+      "correct": true,
+      "raw_output": "A"
+    }
+  ]
+}

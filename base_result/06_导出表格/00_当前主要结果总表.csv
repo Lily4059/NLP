@@ -1,0 +1,7 @@
+﻿模型/设置,评估数据,样本数,Accuracy,Macro-F1,Valid Choice Rate,Empty Prediction Rate,说明
+普通 baseline,csqa_valid.json,1221,0.4513,0.4480,0.9681,0.0319,原始输出口径
+旧版 fullset + LoRA,csqa_valid.json,1221,0.3825,0.4108,0.8051,0.1949,旧路线主实验
+strict baseline,csqa_valid_strict.json,1221,0.3890,0.3793,0.9648,0.0352,strict 口径 baseline
+strict + LoRA 主实验,csqa_valid_strict.json,1221,0.6953,0.6955,0.9992,0.0008,当前 strict 主线
+tmpl baseline,csqa_valid_tmpl.json,1221,0.2277,0.2642,0.6183,0.3817,模板输出 baseline
+tmpl + LoRA,csqa_valid_tmpl.json,1221,0.6871,0.6872,1.0000,0.0000,模板输出主实验

@@ -1,0 +1,15 @@
+__pycache__/
+.ipynb_checkpoints/
+
+models/
+output(冒烟)/
+LLaMA-Factory/output/
+
+**/checkpoint-*/
+
+*.zip
+*.tar.gz
+*.safetensors
+*.bin
+*.pt
+*.pth

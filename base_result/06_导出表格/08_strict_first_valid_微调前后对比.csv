@@ -1,0 +1,3 @@
+﻿模型/设置,评估数据,样本数,Accuracy,Macro-F1,Valid Choice Rate,Empty Prediction Rate,说明
+strict baseline (first_valid),csqa_valid_strict.json,1221,0.3407,0.3641,0.7273,0.2727,strict 补充评估口径 baseline
+strict + LoRA 主实验 (first_valid),csqa_valid_strict.json,1221,0.6953,0.6955,0.9992,0.0008,strict 补充评估口径主实验

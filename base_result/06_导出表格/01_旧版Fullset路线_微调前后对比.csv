@@ -1,0 +1,3 @@
+﻿模型/设置,评估数据,样本数,Accuracy,Macro-F1,Valid Choice Rate,Empty Prediction Rate,说明
+基础模型 baseline,csqa_valid.json,1221,0.4513,0.4480,0.9681,0.0319,未微调，采用原始输出方式
+旧版 fullset + LoRA,csqa_valid.json,1221,0.3825,0.4108,0.8051,0.1949,微调后输出格式不稳定，空预测增多
